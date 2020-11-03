@@ -1,0 +1,15 @@
+main: ${project.groupId}.${project.artifactId}.${project.name}
+name: ${project.name}
+version: ${project.version}
+author: xt449
+api-version: '1.16'
+
+commands:
+  announce:
+    aliases: [announcement, broadcast]
+    usage: /<command> <message>
+    permission: simpleannouncer.command.announce
+
+permissions:
+  simpleannouncer.command.announce:
+    default: op

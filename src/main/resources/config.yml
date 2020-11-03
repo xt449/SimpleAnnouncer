@@ -1,0 +1,9 @@
+automated:
+  prefix: ''
+  delay: 300
+  sequential: true
+  messages:
+    - '&eExample announcement'
+
+manual:
+  prefix: '&8[&6Announcement&8]'
